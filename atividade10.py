@@ -1,6 +1,6 @@
 string=str(input('Digite a string'))
-palavra=str(input('Digite a palavra'))
+palavra=str(input('Digite a palavra para saber se está na string'))
 if palavra in string:
-    print('Palavra está na string')
+    print('True')
 else:
-    print('Palavra não encontradas')
+    print('False')
